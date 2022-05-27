@@ -1,0 +1,10 @@
+package p683;
+
+public class MyFunctionInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

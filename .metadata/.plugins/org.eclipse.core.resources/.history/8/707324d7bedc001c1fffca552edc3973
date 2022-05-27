@@ -1,0 +1,10 @@
+package p662;
+
+public class Util {
+	public static <K, V> boolean compare(Pair<K, V> pq, Pair<K, V> p2) {
+		boolean keyCompare = p1.getKey().equals(p2.getKey());
+		boolean valueCompare = p1.getvalue().equals(p2.getvalue());
+		return keyCompare && valueCompare;
+	}
+
+}

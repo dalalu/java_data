@@ -1,0 +1,19 @@
+package p683;
+
+public class MyFuctionalInterfaceExample {
+
+	public static void main(String[] args) {
+		
+		MyFuctionalInterface fi;
+		
+		fi = () -> {
+			String str = "method call1";
+			System.out.println(str);
+		};
+		
+		fi.method();
+		
+
+	}
+
+}
